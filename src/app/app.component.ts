@@ -23,6 +23,7 @@ import { FloatLabelType } from '@angular/material/form-field';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { map } from 'rxjs/operators';
+import { SideNavComponent } from './side-nav/side-nav.component';
 
 @Component({
   selector: 'app-root',
@@ -37,6 +38,7 @@ import { map } from 'rxjs/operators';
     ReactiveFormsModule,
     MatCheckboxModule,
     MatRadioModule,
+    SideNavComponent,
     MatSelectModule
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
